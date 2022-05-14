@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Home">
+
+
+    <LinearLayout
+        android:layout_width="620dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="575dp"
+            android:layout_height="381dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="20dp"
+            app:alignmentMode="alignMargins"
+            app:columnCount="3"
+            app:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/dgray"
+                app:cardCornerRadius="8dp">
+
+                <Button
+                    android:id="@+id/speedometerbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/dgray"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Speedometer"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    app:icon="@drawable/pmeter"
+                    app:iconGravity="textTop"
+                    app:iconPadding="20dp"
+                    app:iconTint="@color/purple"
+                    tools:layout_editor_absoluteX="98dp"
+                    tools:layout_editor_absoluteY="46dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/dgray"
+                app:cardCornerRadius="8dp">
+
+                <Button
+                    android:id="@+id/landmeterbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/dgray"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Land Meter"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    app:cornerRadius="8dp"
+                    app:icon="@drawable/bmeter"
+                    app:iconGravity="textTop"
+                    app:iconPadding="20dp"
+                    app:iconTint="@color/blue"
+                    tools:layout_editor_absoluteX="98dp"
+                    tools:layout_editor_absoluteY="46dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/dgray"
+                app:cardCornerRadius="8dp">
+
+                <Button
+                    android:id="@+id/compassbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/dgray"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Compass"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    app:cornerRadius="8dp"
+                    app:icon="@drawable/compass"
+                    app:iconGravity="textTop"
+                    app:iconPadding="20dp"
+                    app:iconTint="@color/mint"
+                    tools:layout_editor_absoluteX="98dp"
+                    tools:layout_editor_absoluteY="46dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/dgray"
+                app:cardCornerRadius="8dp">
+
+                <Button
+                    android:id="@+id/navigationbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/dgray"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Navigation"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    app:cornerRadius="8dp"
+                    app:icon="@drawable/pin"
+                    app:iconGravity="textTop"
+                    app:iconPadding="20dp"
+                    app:iconTint="@color/pink"
+                    tools:layout_editor_absoluteX="98dp"
+                    tools:layout_editor_absoluteY="46dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/dgray"
+                app:cardCornerRadius="8dp">
+
+                <Button
+                    android:id="@+id/userbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/dgray"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="User"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    app:cornerRadius="8dp"
+                    app:icon="@drawable/user"
+                    app:iconGravity="textTop"
+                    app:iconPadding="20dp"
+                    app:iconTint="@color/lblue"
+                    tools:layout_editor_absoluteX="98dp"
+                    tools:layout_editor_absoluteY="46dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="@color/dgray"
+                app:cardCornerRadius="8dp">
+
+                <Button
+                    android:id="@+id/tripinfobtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="@color/dgray"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Trip Info"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="14dp"
+                    app:cornerRadius="8dp"
+                    app:icon="@drawable/info"
+                    app:iconGravity="textTop"
+                    app:iconPadding="20dp"
+                    app:iconTint="@color/yellow"
+                    tools:layout_editor_absoluteX="98dp"
+                    tools:layout_editor_absoluteY="46dp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
