@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView" type="id" />
+    <item name="thirtyToTenLabel" type="id" />
+    <item name="textView2" type="id" />
+    <item name="tenToThirtyLable" type="id" />
+    <item name="currentSpeedId" type="id" />
+    <item name="dot100" type="id" />
+    <item name="textView100" type="id" />
+    <item name="dot80" type="id" />
+    <item name="textView80" type="id" />
+    <item name="dot60" type="id" />
+    <item name="textView60" type="id" />
+    <item name="dot50" type="id" />
+    <item name="textView50" type="id" />
+    <item name="dot40" type="id" />
+    <item name="textView40" type="id" />
+    <item name="dot30" type="id" />
+    <item name="textView30" type="id" />
+    <item name="dot20" type="id" />
+    <item name="textView20" type="id" />
+    <item name="dot10" type="id" />
+    <item name="textView10" type="id" />
+    <item name="dot0" type="id" />
+    <item name="textView0" type="id" />
+    <item name="dot120" type="id" />
+    <item name="textView120" type="id" />
+    <item name="textView140" type="id" />
+    <item name="dot140" type="id" />
+    <item name="textView160" type="id" />
+    <item name="dot160" type="id" />
+    <item name="textView180" type="id" />
+    <item name="dot180" type="id" />
+    <item name="metervalue" type="id" />
+</resources>

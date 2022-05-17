@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "126726646797",
+    "project_id": "hud-3fde2",
+    "storage_bucket": "hud-3fde2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126726646797:android:3af935230240d033757944",
+        "android_client_info": {
+          "package_name": "com.example.hud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126726646797-lslnq9q25cjk3f794cfa1mar1a098ggo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaAFCiAmnoTH8KLRjTjQZS7-IEhCqhPkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126726646797-lslnq9q25cjk3f794cfa1mar1a098ggo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

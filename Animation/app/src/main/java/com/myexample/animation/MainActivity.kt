@@ -58,10 +58,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun AnimateRocket(roll:Float) {
-//         val shake = AnimationUtils.loadAnimation(this, R.anim.shake_animation)
-//             shake.duration=1000
-//
-//      image.startAnimation(shake)
+
 
 
 
@@ -71,8 +68,7 @@ class MainActivity : AppCompatActivity() {
                 Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF,
                 0.5f
         );
-        //mRotateUpAnim.repeatCount = Int.MAX_VALUE
-        //mRotateUpAnim.repeatMode = Animation.REVERSE
+
         mRotateUpAnim.duration = 500
         image = findViewById(R.id.imageView)
         image.startAnimation(mRotateUpAnim)
